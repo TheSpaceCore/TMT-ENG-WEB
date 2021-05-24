@@ -7,4 +7,5 @@
 body{
     background-image: url(Bilder/Backgrundsbild.jpg);
     background-size: cover;
+    overflow: scroll;
 }
