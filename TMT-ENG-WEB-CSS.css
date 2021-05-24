@@ -19,6 +19,14 @@
     height: 12vh;
 }
 
+#meny ul{
+    text-align: center;
+}
+#meny ul li{
+    list-style: none;
+    display:inline-block;
+}
+
 body{
     background-image: url(Bilder/background\ test.jpg);
     background-size: cover;
