@@ -3,6 +3,8 @@
     padding: 0px;
 }
 
-#Backgrundsbild{
+
+body{
+    background-image: url(Bilder/Backgrundsbild.jpg);
     background-size: cover;
 }
