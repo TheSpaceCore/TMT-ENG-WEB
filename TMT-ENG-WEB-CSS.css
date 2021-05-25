@@ -13,24 +13,25 @@
     margin-left: 1000px;
 }
 
-#Icon1{
+.Icon{
     background-color: Red;
     width: 110px;
     height: 110px;
     float:left;
 }
-#Icon2{
-    background-color: Red;
-    width: 110px;
-    height: 110px;
-    float:left;
+.Icon ul li{
+    list-style:none;
+    display:inline-block;
 }
 
 #meny{
     background-color: Red;
     width: 100%;
     height: 12.7vh;
-    opacity: 0.715;
+    opacity: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 #meny ul{
@@ -46,6 +47,7 @@
 }
 #meny ul li a{
     display:block;
+    margin-right:10px;
     text-decoration: none;
     text-transform: uppercase;
     color:white;
@@ -55,16 +57,30 @@
     font-weight: 700;
     padding: 50px;
     border-right: solid white;
+    position: sticky;
    
 }
 #meny ul li a:hover{
     background-color: darkred;
 }
 
-body{
+#bild{
+    width:100%;
+    height:100vh;
     background-image: url(Bilder/background\ test.jpg);
     background-size: cover;
     overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+#CultureBody{
+    background-image: url(Bilder/background\ test.jpg);
+    background-size: cover;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
 }
 
 #intro{
@@ -74,9 +90,14 @@ body{
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
 }
-#IntroPage{
+#effect{
     width:70%;
-    height: 200vh;
+    height: 50vh;
     background-color:white;
-    margin-left: 15%;
+    margin:auto;
+    margin-top: 50%;
+}
+body{
+    padding: 0;
+    margin: 0;
 }
