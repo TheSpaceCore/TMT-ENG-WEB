@@ -27,7 +27,7 @@
 #meny{
     background-color: Red;
     width: 100%;
-    height: 12.7vh;
+    height: 13.6vh;
     opacity: 1;
     position: -webkit-sticky;
     position: sticky;
@@ -47,7 +47,7 @@
 }
 #meny ul li a{
     display:block;
-    margin-right:10px;
+    
     text-decoration: none;
     text-transform: uppercase;
     color:white;
@@ -67,14 +67,6 @@
 #bild{
     width:100%;
     height:100vh;
-    background-image: url(Bilder/background\ test.jpg);
-    background-size: cover;
-    overflow: scroll;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative;
-}
-#CultureBody{
     background-image: url(Bilder/background\ test.jpg);
     background-size: cover;
     overflow: scroll;

@@ -1,0 +1,8 @@
+#CultureBody{
+    background-image: url(Bilder/culturebackground.jpg);
+    background-size: cover;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
