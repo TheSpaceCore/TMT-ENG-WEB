@@ -1,0 +1,25 @@
+#TraditionBody{
+    background-image: url(Bilder/church.jpg);
+    background-size: cover;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.paragrafTradition{
+    width:150%;
+    margin-left:70px;
+    margin-right:20px;
+    font-size: 20px;
+}
+#citypic{
+    margin-right: 40px;
+}
+#introT{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 20%;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
