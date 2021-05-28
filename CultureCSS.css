@@ -16,3 +16,11 @@
     align-items: center;
     justify-content: center;
 }
+#culture{
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 42.5%;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}

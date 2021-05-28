@@ -75,7 +75,7 @@ body{
     position: relative;
 }
 
-.intro{
+#intro{
     position: absolute;
     color: white;
     top: 30%;
@@ -83,18 +83,21 @@ body{
     font-size: 100px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 #effect{
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    }
+}
+
 .heading{
     position: absolute;
     top: 250px;
     left: 70px;
 }
+
 .paragraf{
     margin-left:70px;
     margin-right:20px;
