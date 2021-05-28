@@ -75,12 +75,12 @@ body{
     position: relative;
 }
 
-#intro{
+.intro{
     position: absolute;
     color: white;
     top: 25%;
-    left: 50%;
-    font-size: 50px;
+    left: 46%;
+    font-size: 150px;
     font-family: 'Times New Roman', Times, serif;
 }
 #effect{
@@ -89,6 +89,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 .heading{
     position: absolute;
