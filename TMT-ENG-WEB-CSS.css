@@ -59,7 +59,6 @@
     font-weight: 700;
     padding: 50px;
     border-right: solid white;
-
    
 }
 #meny ul li a:hover{
@@ -74,6 +73,7 @@ body{
     background-attachment: fixed;
     position: relative;
 }
+
 
 #intro{
     position: absolute;
@@ -96,8 +96,10 @@ body{
         position: absolute;
         top: 1300px;
         left: 70px;
+        font-size: 30px;;
 }
 .paragraf{
+    width:100%;
     margin-left:70px;
     margin-right:20px;
     font-size: 20px;

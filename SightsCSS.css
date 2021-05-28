@@ -1,0 +1,14 @@
+#SightBody{
+    background-image: url(Bilder/Palmyra_theatre_04.jpg);
+    background-size: cover;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.paragrafSight{
+    width:200%;
+    margin-left:70px;
+    margin-right:20px;
+    font-size: 20px;
+}
