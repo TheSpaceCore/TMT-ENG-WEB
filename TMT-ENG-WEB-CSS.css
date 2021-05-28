@@ -89,7 +89,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    }
 .heading{
     position: absolute;
     top: 250px;
